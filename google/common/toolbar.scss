@@ -1,0 +1,68 @@
+@import "../../common/common.scss";
+
+body {
+    #gb#gb {
+        // I don't understand the "#gb#gb" selector
+
+        a.gb_P,
+        a.gb_b {
+            // "Gmail", "Images"
+            color: $white;
+        }
+    }
+
+    #gb#gb {
+        // 3x3 tile
+
+        .gb_Dc {
+            // tiles container
+            //background: $white;
+            //border-radius: 1.2em;
+        }
+
+        .gb_lb {
+            // arrow on top of box
+            border-bottom-color: $blue;
+        }
+
+        .gb_ka,
+        .gb_ha {
+            background: $black;
+        }
+
+        a.gb_O {
+            color: $white;
+        }
+
+        .gb_Z:hover:not(.gb_0) a {
+            @include separator($blue);
+        }
+
+        .gb_Z:hover .gb_4 {
+            background: $blue;
+        }
+
+        .gb_la {
+            // "more"
+            background: $dark;
+            color: $white;
+        }
+
+        .gb_ma {
+            // separator between top and "more"
+            @include separator($dark);
+        }
+    }
+
+    #gb#gb {
+        // account layer
+        .gb_zb {
+            background: $black;
+        }
+
+        .gb_Ha {
+            // buttons
+            @include button();
+        }
+    }
+}

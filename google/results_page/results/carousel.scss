@@ -1,0 +1,47 @@
+@import "../../../common/common.scss";
+
+body {
+    div.rl_feature {
+        // interesting locations/"Interessante Orte" background
+        background: $dark;
+        color: $white;
+
+        .kxbcl {
+            // headline breadcrumbs
+            color: $blue !important;
+        }
+
+        .lxhdrbox,
+        ._Lbe {
+            // last headline breadcrumb element (unlinked)
+            color: $white;
+        }
+
+    }
+
+    .mlo-c {
+        // box border
+        background-color: $dark; // avoid bright border-radius artifacts
+    }
+
+    .rl_center {
+        // bottom border line
+        @include separator();
+    }
+
+    .rlc__slider,
+    .rlc__slider-page {
+        // scrolling carousel
+        background: $dark;
+    }
+
+    // paginator
+    g-fab {
+        background: $dark-white !important;
+    }
+
+    g-fab svg path {
+        color: $black !important;
+    }
+
+}

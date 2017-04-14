@@ -1,0 +1,20 @@
+@import "../../../../common/common.scss";
+
+// news search
+
+body {
+    ._IId {
+        // hyperlink
+        color: $green;
+    }
+
+    ._cnc {
+        // text
+        color: $white;
+
+        em {
+            // highlighted text
+            color: $green;
+        }
+    }
+}

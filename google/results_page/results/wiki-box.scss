@@ -1,0 +1,43 @@
+@import "../../../common/common.scss";
+
+body {
+    .kno-ecr-pt {
+        // headline
+        color: $blue;
+    }
+
+    .kp-blk .xpdopen ._xle {
+        // separator
+        @include separator();
+    }
+
+    .kp-blk {
+        // wiki box
+        background: $black;
+        box-shadow: none;
+        @include separator();
+    }
+
+    ._xdb .fl {
+        // definition list headings
+        color: $white !important;
+    }
+
+    .rl_item {
+        // upcoming events box link
+        background: $black;
+
+        // time
+        color: $white;
+
+        .title {
+            // title
+            color: $green;
+        }
+    }
+
+    ._Kjg {
+        // upcoming event location
+        color: $white;
+    }
+}

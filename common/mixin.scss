@@ -15,10 +15,10 @@
 }
 
 @mixin input() {
-    background: $blue;
-    color: $bright-white;
+    background: $dark-white;
+    color: $white;
 }
 
-@mixin separator() {
-    border-color: $black;
+@mixin separator($color: $black) {
+    border-color: $color;
 }

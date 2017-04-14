@@ -14,5 +14,6 @@ Planned:
 
 * `http*://*.github.com/*`
 * `http*://*.facebook.com/*`
+* `http*://*.stackoverflow.com/*`
 
 Only CSS styles used, see [manifest.json](manifest.json).

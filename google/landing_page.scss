@@ -1,0 +1,25 @@
+@import "../common/common.scss";
+
+@import "common/toolbar.scss";
+@import "common/search-field.scss";
+
+body {
+    background: $dark;
+    color: $white;
+
+    // submit buttons
+    .jhp input[type="submit"] {
+        @include button();
+    }
+
+    // footer
+    #fbar {
+        background: $dark;
+
+        @include separator();
+    }
+
+    #footer a {
+        color: $white;
+    }
+}

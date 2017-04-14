@@ -1,0 +1,40 @@
+@import "../../common/common.scss";
+
+@import "../common/toolbar.scss";
+
+body {
+    .sfbgg {
+        // top
+        background: $dark;
+    }
+
+    #hdtb {
+        // tabs
+        @include separator();
+
+        #hdtbSum {
+            background: $dark;
+
+            .hdtb-mitem a:hover,
+            .hdtb-mitem a:active {
+                color: $red;
+            }
+        }
+    }
+
+    .sfbgx {
+        // shortly visible
+        background: $dark;
+    }
+
+    .sbdd_b,
+    .sbsb_a {
+        // input suggestions
+        @include input();
+    }
+
+    #appbar {
+        // "Ungefähr 2 Mio. Ergebnisse .. "
+        background: $dark;
+    }
+}

@@ -1,0 +1,19 @@
+@import "../../../common/common.scss";
+
+body {
+    h3._MRj {
+        // headline ("Schlagzeilen")
+        color: $blue;
+    }
+
+    g-inner-card {
+        // boxes
+        background: $black;
+    }
+
+    ._Fqg,
+    ._Iqg {
+        // more
+        color: $green;
+    }
+}

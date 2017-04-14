@@ -1,0 +1,20 @@
+@import "../../common/common.scss";
+
+body {
+    input#lst-ib,
+    .sbib_a,
+    .sbibod {
+        // search field
+        @include input();
+    }
+
+    .sbsb_d {
+        // suggestion hover
+        background: $blue;
+        color: $white;
+    }
+
+    #sbsb_f {
+        color: $white;
+    }
+}

@@ -1,0 +1,13 @@
+@import "./../common/common.scss";
+
+@import "./results_page/header.scss";
+@import "./common/search-field.scss";
+@import "./results_page/results.scss";
+@import "./results_page/footer.scss";
+
+body {
+    div#viewport {
+        background: $dark;
+        color: $white;
+    }
+}

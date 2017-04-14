@@ -1,0 +1,18 @@
+@import "../../common/common.scss";
+
+body {
+    #foot #navcnt .cur {
+        // paginator (active page number)
+        color: $red;
+    }
+
+    #fbar a {
+        // we don't want colored footer links
+        color: $white;
+    }
+
+    #brs .med {
+        // misc
+        color: $white;
+    }
+}
