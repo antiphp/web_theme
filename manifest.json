@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "AntiPHP web theme",
+    "version": "0.0.1",
+    "description": "Dark theme for google.com",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.google.de/*"
+            ],
+            "js": [
+            ],
+            "css": [
+                "./google.min.css"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+@import "../common/color";
+@import "../common/mixin";
+
+html {
+    body {
+        background: $dark;
+        color: $white;
+
+        .sfbgg {
+            // top
+            background: $dark;
+        }
+
+        #hdtb {
+            // tabs
+            @include separator();
+
+            #hdtbSum {
+                background: $dark;
+
+                .hdtb-mitem a:hover,
+                .hdtb-mitem a:active {
+                    color: $red;
+                }
+            }
+        }
+
+        .sfbgx {
+            background: $dark;
+        }
+
+        #appbar {
+            // "Ungefähr 2 Mio. Ergebnisse .. "
+            background: $dark;
+        }
+
+        a:link {
+            // headline
+            color: $blue;
+        }
+
+        a:visited {
+            color: $yellow;
+        }
+
+        cite {
+            // subtitle
+            color: $green;
+        }
+
+        ._Fmb {
+            // arrow icon to open dropdown
+            background: $black;
+
+            &:hover {
+                background: $green;
+            }
+
+            &.selected {
+                background: $green;
+            }
+        }
+
+        .action-menu-item,
+        .action-menu-item:hover,
+        .action-menu-item.selected {
+            background-color: $dark;
+
+            .f a {
+                color: $white;
+            }
+        }
+
+
+        .f a:link {
+            // within arrow icon
+            color: $black;
+        }
+
+        .ab_dropdown {
+            background: $dark;
+            color: $white;
+        }
+
+        .ab_button {
+            @include button();
+        }
+
+        // subtext link bar
+        a.fl:link {
+            color: $green;
+        }
+
+        .s {
+            // text
+            color: $white;
+        }
+
+        .s .st em {
+            color: $green;
+        }
+
+        #foot #navcnt .cur {
+            // paginator (active page number)
+            color: $red;
+        }
+
+        #brs .med {
+            // misc
+            color: $white;
+        }
+    }
+}

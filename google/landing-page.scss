@@ -1,0 +1,37 @@
+@import "../common/color";
+@import "../common/mixin";
+
+html {
+    body {
+        background: $dark;
+        color: $white;
+
+        // top nav
+        #gb#gb a.gb_P {
+            color: $white;
+        }
+
+        // search field
+        input#lst-ib,
+        .sbib_a,
+        .sbibod {
+            @include input();
+        }
+
+        // submit buttons
+        .jhp input[type="submit"] {
+            @include button();
+        }
+
+        // footer
+        #fbar {
+            background: $dark;
+
+            @include separator();
+        }
+
+        #footer a {
+            color: $white;
+        }
+    }
+}
