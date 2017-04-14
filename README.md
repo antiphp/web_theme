@@ -16,4 +16,4 @@ Planned:
 * `http*://*.facebook.com/*`
 * `http*://*.stackoverflow.com/*`
 
-Only CSS styles used, see [src/manifest.json](src/manifest.json).
+Only CSS styles used, see [manifest.json](https://github.com/antiphp/web_theme/blob/master/src/manifest.json).
