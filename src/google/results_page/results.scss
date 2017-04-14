@@ -1,10 +1,9 @@
-@import "../../common/common";
+@import "../../common/common.scss";
+@import "results/carousel.scss";
+@import "results/headlines.scss";
+@import "results/wiki-box.scss";
 
-@import "results/carousel";
-@import "./results/headlines.scss";
-@import "./results/wiki-box.scss";
-
-@import "./results/news/news.scss";
+@import "results/news/news.scss";
 
 body {
     a:link {
