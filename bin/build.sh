@@ -10,5 +10,6 @@ cp $BASE_DIR/src/*.min.css $BUILD_DIR/
 cp $BASE_DIR/src/manifest.json $BUILD_DIR/
 cd $BUILD_DIR/
 zip -r -FS ../web_theme.zip *
+rm -rf $BUILD_DIR
 
 cd $CURRENT_DIR
