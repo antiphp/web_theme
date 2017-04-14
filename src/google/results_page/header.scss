@@ -25,6 +25,7 @@ body {
     .sfbgx {
         // shortly visible
         background: $dark;
+        @include separator();
     }
 
     .sbdd_b,

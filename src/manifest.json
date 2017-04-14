@@ -2,16 +2,19 @@
     "manifest_version": 2,
     "name": "AntiPHP web theme",
     "version": "0.0.1",
-    "description": "Dark theme for google.com",
+    "description": "Dark theme for google.de",
+    "applications": {
+        "gecko": {
+            "id": "web-theme@antiphp.net"
+        }
+    },
     "content_scripts": [
         {
             "matches": [
-                "http*://*.google.de/*"
-            ],
-            "js": [
+                "*://*.google.de/*"
             ],
             "css": [
-                "./google.min.css"
+                "google.min.css"
             ]
         }
     ]

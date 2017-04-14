@@ -8,6 +8,12 @@ body {
         @include input();
     }
 
+    .gsc_b {
+        // spell check
+        background-image: none;
+        border-bottom: 0.2em solid $red;
+    }
+
     .sbsb_d {
         // suggestion hover
         background: $blue;
